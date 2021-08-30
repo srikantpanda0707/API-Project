@@ -1,0 +1,12 @@
+com\w24\API_Proj\setUp\APISetUp.class
+com\w24\API_Proj\TestUtils\ExtentManager.class
+com\w24\API_Proj\listeners\RetryListeners.class
+com\w24\API_Proj\API\CustomerAPI.class
+com\w24\API_Proj\listeners\RetryTransformer.class
+com\w24\API_Proj\TestUtils\ConfigProperty.class
+com\w24\API_Proj\TestUtils\DataProviderClass.class
+com\w24\API_Proj\TestUtils\TestUtil.class
+com\w24\API_Proj\Pojo\User.class
+com\w24\API_Proj\TestUtils\ExcelReader.class
+com\w24\API_Proj\listeners\CustomListeners.class
+com\w24\API_Proj\TestUtils\CommonVariables.class
