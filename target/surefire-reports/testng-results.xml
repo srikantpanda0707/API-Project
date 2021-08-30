@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4203" started-at="2021-08-30T10:14:50Z" finished-at="2021-08-30T10:14:54Z">
+  <suite name="Suite" duration-ms="4026" started-at="2021-08-30T11:57:25Z" finished-at="2021-08-30T11:57:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4203" started-at="2021-08-30T10:14:50Z" finished-at="2021-08-30T10:14:54Z">
+    <test name="Test" duration-ms="4026" started-at="2021-08-30T11:57:25Z" finished-at="2021-08-30T11:57:29Z">
       <class name="com.w24.API_Proj.testCases.TestCustomerAPI">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="beforeSuite" is-config="true" duration-ms="756" started-at="2021-08-30T10:14:49Z" finished-at="2021-08-30T10:14:50Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="beforeSuite" is-config="true" duration-ms="781" started-at="2021-08-30T11:57:24Z" finished-at="2021-08-30T11:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="beforeClass" is-config="true" duration-ms="5" started-at="2021-08-30T10:14:50Z" finished-at="2021-08-30T10:14:50Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="beforeClass" is-config="true" duration-ms="5" started-at="2021-08-30T11:57:25Z" finished-at="2021-08-30T11:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-30T10:14:50Z" finished-at="2021-08-30T10:14:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-08-30T11:57:25Z" finished-at="2021-08-30T11:57:25Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:1, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="validateCreateCustomerAPIWithValidData" duration-ms="3623" started-at="2021-08-30T10:14:50Z" data-provider="dp" finished-at="2021-08-30T10:14:53Z">
+        <test-method status="PASS" signature="validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:1, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="validateCreateCustomerAPIWithValidData" duration-ms="3373" started-at="2021-08-30T11:57:25Z" data-provider="dp" finished-at="2021-08-30T11:57:28Z">
           <params>
             <param index="0">
               <value>
@@ -37,18 +37,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCustomerAPIWithValidData -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-30T10:14:54Z" finished-at="2021-08-30T10:14:54Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-08-30T11:57:29Z" finished-at="2021-08-30T11:57:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidData status=SUCCESS method=TestCustomerAPI.validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:1, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc] output={null}]]]>
+                <![CDATA[[TestResult name=validateCreateCustomerAPIWithValidData status=SUCCESS method=TestCustomerAPI.validateCreateCustomerAPIWithValidData(java.util.Hashtable)[pri:1, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@485966cc]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-08-30T10:14:54Z" finished-at="2021-08-30T10:14:54Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.w24.API_Proj.testCases.TestCustomerAPI@5d0a1059]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-08-30T11:57:29Z" finished-at="2021-08-30T11:57:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

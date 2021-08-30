@@ -3,9 +3,6 @@ package com.w24.API_Proj.TestUtils;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Hashtable;
-
-import com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver;
 import com.w24.API_Proj.setUp.APISetUp;
 
 import io.restassured.specification.RequestSpecification;
@@ -28,18 +25,19 @@ public class TestUtil extends APISetUp{
 	
 	public static void archiveTestReport() {
 		try {
-		String reportName="TestReport.html";
-		String lastTestReportFilePath="./src/test/resources/testReports/";
-		String archiveReportPath="./src/test/resources/archivedTestReport";
+		String reportName=configProperty.getTestReportName();
+		String lastTestReportFilePath=System.getProperty("user.dir")+"/src/test/resources/testReports/";
+		String archiveReportPath=System.getProperty("user.dir")+"/src/test/resources/archivedTestReport/";
 		
 		Date date=new Date();
-		SimpleDateFormat format=new SimpleDateFormat("dd_MM_yyyy:hh_mm_ss");
+		SimpleDateFormat format=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 	
 		String formattedDate=format.format(date);
-		String archivedTestreport=formattedDate+" : "+reportName;
+		String archivedTestreport=formattedDate+" _ "+reportName;
 		
 		File oldReport=new File(lastTestReportFilePath+reportName);
-		File newFile=new File(archiveReportPath+archivedTestreport);
+		File newFile=new File(archiveReportPath + archivedTestreport);
+		
 		if(oldReport.exists()) {
 			oldReport.renameTo(newFile);
 			oldReport.delete();
