@@ -5,7 +5,8 @@ import org.aeonbits.owner.Config.Sources;
 
 @Sources({
 	//imp point->these double back slashes will not work in linux and mac in that case use single forward slash-> /
-	"file:src\\test\\resources\\propertyFiles\\config.Properties"
+	//"file:src\\test\\resources\\propertyFiles\\config.Properties"
+	"file:src\\test\\resources\\propertyFiles\\${environment}.Properties"//when we have multiple property files
 })
 public interface ConfigProperty extends Config{
 	

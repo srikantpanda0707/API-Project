@@ -25,6 +25,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class APISetUp {
 	
+	
 	public static ConfigProperty configProperty;
 	
 	public static ExcelReader excel=new ExcelReader(System.getProperty("user.dir")+"/src/test/resources/testData/API_TestData.xlsx");
@@ -35,7 +36,8 @@ public class APISetUp {
 	
 	@BeforeSuite
 	public void beforeSuite() {
-        
+		
+		ConfigFactory.setProperty("environment",System.getProperty("Environment"));
 		configProperty=ConfigFactory.create(ConfigProperty.class);
 		RestAssured.baseURI=configProperty.getBaseURI();
 		RestAssured.basePath=configProperty.getBasePath();
