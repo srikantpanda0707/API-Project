@@ -76,9 +76,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.1</version>
 				<configuration>
-				<systemPropertyVariables>
-					<environment>${Denvironment}</environment>
-				</systemPropertyVariables>
+				<!--  <systemPropertyVariables>-->
+					<!--<environment>${Denvironment}</environment>-->
+				<!--</systemPropertyVariables>-->
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testRunner/testng.xml</suiteXmlFile>
